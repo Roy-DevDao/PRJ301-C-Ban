@@ -31,33 +31,6 @@ public class Admin {
         this.password = password;
     }
     
-    
-
-//    @Override
-//    public int hashCode() {
-//        int hash = 3;
-//        hash = 41 * hash + Objects.hashCode(this.email);
-//        hash = 41 * hash + Objects.hashCode(this.password);
-//        return hash;
-//    }
-//
-//    @Override
-//    public boolean equals(Object obj) {
-//        if (this == obj) {
-//            return true;
-//        }
-//        if (obj == null) {
-//            return false;
-//        }
-//        if (getClass() != obj.getClass()) {
-//            return false;
-//        }
-//        final Admin other = (Admin) obj;
-//        if (!Objects.equals(this.email, other.email)) {
-//            return false;
-//        }
-//        return Objects.equals(this.password, other.password);
-//    }
 
     @Override
     public String toString() {
